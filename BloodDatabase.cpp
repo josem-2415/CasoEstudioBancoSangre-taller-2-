@@ -115,7 +115,7 @@ void BloodDatabase::getDonorDetails() {
             phone = std::stoll(input);
             break;
         } else {
-            std::cout << "❌ Error: el número debe tener 10 dígitos y empezar por 3.\n";
+            std::cout << "Error: el número debe tener 10 dígitos y empezar por 3.\n";
         }
     }
     newDonor.setNumber(phone);
