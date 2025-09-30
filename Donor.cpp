@@ -60,3 +60,4 @@ void Donor::setBloodType(int bt) { bloodType = bt; }
 void Donor::setNumber(long long num) { number = num; }
 void Donor::setUnits(int u) { units = u; }
 void Donor::setDate(const std::string& d) { date = d; }
+
