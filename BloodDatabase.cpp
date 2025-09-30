@@ -118,7 +118,6 @@ void BloodDatabase::getDonorDetails() {
             std::cout << "❌ Error: el número debe tener 10 dígitos y empezar por 3.\n";
         }
     }
-
     newDonor.setNumber(phone);
 
     std::cout << "Unidades de sangre donadas: ";
